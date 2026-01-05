@@ -244,6 +244,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="mt-20 pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
         <p>Last updated: January 2026</p>
+        <p>Website source code available on <a href="https://github.com/kevinkingo/kevinkingo.com">GitHub</a>.</p>
       </footer>
     </main>
   );

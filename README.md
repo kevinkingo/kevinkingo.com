@@ -1,6 +1,8 @@
-# Academic Portfolio - Next.js Template
+# kevinkingo.com
 
-A minimalist academic website template. Edit one config file to update your entire site.
+Source code for [kevinkingo.com](https://kevinkingo.com) - a minimalist academic website built with Next.js.
+
+**Feel free to fork this repo and use it for your own academic website!** Just edit one config file to update all content.
 
 ## Features
 
