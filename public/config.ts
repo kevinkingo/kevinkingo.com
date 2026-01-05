@@ -72,7 +72,8 @@ export const config = {
   news: [
     {
       date: "Sep 2025",
-      text: "Our paper \"Learning Efficient Fuse-and-Refine for Feed-Forward 3D Gaussian Splatting\" got accepted by Neurips 2025."
+      text: "Our paper \"Learning Efficient Fuse-and-Refine for Feed-Forward 3D Gaussian Splatting\" got accepted by Neurips 2025.",
+      link: "#splatvoxel"
     },
     {
       date: "Dec 2024",
