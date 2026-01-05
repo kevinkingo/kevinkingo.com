@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 leading-relaxed;
+  }
+
+  h1 {
+    @apply text-3xl font-bold mb-4;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold mb-6 mt-12;
+  }
+
+  h3 {
+    @apply text-xl font-semibold mb-3;
+  }
+
+  a {
+    @apply text-gray-900 hover:text-gray-600 transition-colors;
+  }
+
+  p {
+    @apply mb-4;
+  }
+}
+
+@layer utilities {
+  .link-hover {
+    @apply underline decoration-gray-300 hover:decoration-gray-600 underline-offset-2;
+  }
+
+  .section-divider {
+    @apply border-t border-gray-200 my-16;
+  }
+
+  /* Bio links styling - consistent with other links */
+  .bio-content a {
+    @apply underline decoration-gray-300 hover:decoration-gray-600 underline-offset-2 transition-colors;
+  }
+}
